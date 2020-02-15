@@ -2,7 +2,7 @@
 
 INT_0 = int()
 
-INT_1 = len(str(int()))
+INT_1 = len(((),))
 
 STR_100 = str(INT_1) + str(INT_0) + str(INT_0)
 INT_100 = int(STR_100)
