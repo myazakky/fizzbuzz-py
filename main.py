@@ -1,7 +1,7 @@
 """
 fizz buzz program
 """
-from lib.numbers import INT_100, INT_15, INT_5, INT_3
+from lib.numbers import INT_100, INT_15, INT_5, INT_3, INT_1
 from lib.fizzbuzz import FIZZ, BUZZ
 
 def fizzbuzz(num):
@@ -15,4 +15,4 @@ def fizzbuzz(num):
     else:
         return str(num)
 
-print([fizzbuzz(i) for i in range(INT_100)])
+print([fizzbuzz(i + INT_1) for i in range(INT_100)])
